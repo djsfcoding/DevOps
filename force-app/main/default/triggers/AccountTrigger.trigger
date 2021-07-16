@@ -1,4 +1,4 @@
-trigger AccountTrigger on Account (before insert,before Update) {
+trigger AccountTrigger on Account (before insert,before gitUpdate) {
 if(Trigger.insert){
 
 }
